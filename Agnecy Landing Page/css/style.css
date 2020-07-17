@@ -34,12 +34,12 @@ body{
 	text-transform: uppercase;
 	color:#e0e0e0;
 	display: inline;
+	transition: all 0.5s ease 0s;
 }
 
 .header__nav li:hover{
 	cursor: pointer;
-	background-color: #ff3f40;
-	transition: all 0.3s ease-out;
+	background-color: #ff3f40;	
 }
 
 .current-page{
@@ -47,7 +47,6 @@ body{
 }
 
 .discription__content{
-	
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
@@ -57,7 +56,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	
 }
 
 .discription__content_title {
@@ -117,23 +115,14 @@ body{
 	font-weight: bold;
 	letter-spacing: 0.025em;
 	margin-bottom: 122px;
+	transition: all 0.3s ease 0s;
 }
 
 .discription__content_button:hover{
-	transition: all 0.3s ease-in-out;
 	background-color: white;
 	border: 2px #ff2d2d solid ;
 	color: #ff2d2d;
 }
-
-/*
-.offers {
-	display: flex;
-	justify-content: center;
-	background-color: #ffffff;
-	height: 690px;
-}
-*/
 
 .offers__content {
 	float: left;
@@ -179,10 +168,10 @@ body{
 	font-weight: bold;
 	letter-spacing: 0.025em;
 	margin-bottom: 122px;
+	transition: all 0.3s ease 0s;
 }
 
 .offers__content_button:hover{
-	transition: all 0.3s ease-in-out;
 	background-color: #ff2d2d;
 	border: 2px #ffffff solid ;
 	color: #ffffff;
@@ -286,6 +275,11 @@ align-items: center;
 
 .products__content_nav li{
 	display: inline;
+	transition: all 0.5s ease 0s;
+}
+
+.products__content_nav li:hover{
+	color:#ff2d2d;
 }
 
 .current-products {
@@ -303,6 +297,15 @@ align-items: center;
 	height: 290px;
 	width: 300px;
 	background-color: #f5f0dd;
+}
+
+.products__content_galery img{
+	width: 100%;
+	height: auto;	
+}
+
+.team{
+	margin-bottom: 110px;	
 }
 
 .team__content{
@@ -330,7 +333,7 @@ align-items: center;
 	color:#737373;
 }
 
-.team-info{
+.team__info {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -344,8 +347,20 @@ align-items: center;
 	background-color: #f5f0dd;
 }
 
-.team__member_name {
-	
+.team__banner img{
+	width:100%;
+	height: 100%;
+	object-fit:cover;	
+}
+
+.team__member{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.team__member_portfolio-name {
+	margin-top: 15px;
 	text-transform: uppercase;
 	font-size: 30px;
 	font-family: 'Open Sans', sans-serif;
@@ -354,8 +369,8 @@ align-items: center;
 	font-weight: 600;
 }
 
-.team__member_bio {
-	
+.team__member_portfolio-bio {
+	margin-top: 35px;
 	width: 640px;
 	font-size: 16px;
 	line-height: 28px;
@@ -363,7 +378,8 @@ align-items: center;
 	color:#737373;
 }
 
-.team__member_social{
+.team__member_portfolio-social{
+	margin-top: 45px;
 	width: 380px;
 	display: flex;
 	justify-content: space-between;
@@ -375,19 +391,90 @@ align-items: center;
 	color: #585858;
 }
 
-.team__list {
-
+.team__member_list {
 	width: 850px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.team__list_img{
+.team__member_list-img{
 	height: 215px;
 	width: 200px;
 	background-color: #f5f0dd;
 }
 
-.team__list_img:hover{
+.team__member_list img{
+	width:100%;
+	height: 100%;
+	object-fit:cover;	
+}
 
+.email{
+background-color: #f5f0dd;
+height: 515px;
+}
+
+.email__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.email__content_title {
+	margin-top: 135px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	line-height: 24px;
+	font-weight: bold;
+	letter-spacing: 0.025em;
+	color: #fdfcf8;
+}
+
+.email__content_text {
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	color: #fdfcf8;
+}
+
+.email__content_form{
+	margin-top: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.email__content_form-input {
+	width:520px;
+	height: 80px;
+	border-radius: 3px;
+	padding-left: 35px;
+	font-family: 'Open Sans', sans-serif;
+margin-right: 20px;
+	
+}
+
+.email__content_form-button {
+	text-transform: uppercase;
+	color: #ffff;
+	cursor: pointer;
+	display: grid;
+	place-items: center;
+	background-color: #ff2d2d;
+	width: 215px;
+	height: 80px;
+	border-radius: 5px ;
+	font-size: 18px;
+	line-height: 34px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.025em;
+	transition: all 0.3s ease 0s;
+}
+
+.email__content_form-button:hover{
+	background-color: white;
+	border: 2px #ff2d2d solid ;
+	color: #ff2d2d;
 }
