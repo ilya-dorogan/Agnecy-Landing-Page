@@ -86,6 +86,7 @@ body{
 }
 
 .discription__content_video {
+	cursor: pointer;
 	margin-top: 105px;
 	display: flex;
 	justify-content: center;
@@ -224,14 +225,6 @@ body{
 	height: 2px;
 }
 
-.redline{
-	margin-top: 27px;
-	margin-bottom: 87px;
-	width: 130px;
-	height: 2px;
-	background-color: #ff2d2d;
-}
-
 .products_content{
 display: flex;
 flex-direction: column;
@@ -256,6 +249,14 @@ align-items: center;
 	font-size: 16px;
 	line-height: 28px;
 	color:#737373;
+}
+
+.redline{
+	margin-top: 27px;
+	margin-bottom: 87px;
+	width: 130px;
+	height: 2px;
+	background-color: #ff2d2d;
 }
 
 .products__content_nav{
@@ -331,6 +332,14 @@ align-items: center;
 	font-size: 16px;
 	line-height: 28px;
 	color:#737373;
+}
+
+.redline2{
+	margin-top: 30px;
+	margin-bottom: 70px;
+	width: 130px;
+	height: 2px;
+	background-color: #ff2d2d;
 }
 
 .team__info {
@@ -477,4 +486,195 @@ margin-right: 20px;
 	background-color: white;
 	border: 2px #ff2d2d solid ;
 	color: #ff2d2d;
+}
+
+.getInTouch {
+	
+}
+
+.getInTouch__content {
+}
+
+.getInTouch__content_title {
+	margin-top: 105px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	color:#585858;
+	letter-spacing: 0.01em;
+}
+
+.getInTouch__content_text {
+	margin-top: 50px;
+	max-width: 730px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	color:#737373;
+}
+
+.redline3{
+	margin-top: 55px;
+	margin-bottom: 75px;
+	width: 130px;
+	height: 2px;
+	background-color: #ff2d2d;
+}
+
+.getInTouch__connection {
+	display: flex;
+	justify-content: space-between;
+}
+
+.getInTouch__connection_enter {
+	padding-right: 20px;
+	width: 750px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.getInTouch__connection_enter-name {
+	padding-left: 55px;
+	border-radius: 6px;
+	height:70px ;
+	width: 340px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0.025em;
+	color:#737373;
+	background-color: #e5e5e5;
+}
+
+.getInTouch__connection_enter-email {
+	padding-left: 55px;
+	border-radius: 6px;
+	height:70px ;
+	width: 340px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0.025em;
+	color:#737373;
+	background-color: #e5e5e5;
+}
+
+.getInTouch__connection_enter-text {
+	margin-top: 45px;
+	padding-top: 35px;
+	padding-left: 55px;
+	border-radius: 6px;
+	height: 250px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0.025em;
+	color:#737373;
+	background-color: #e5e5e5;
+	resize: none;
+}
+
+.getInTouch__connection_enter-button {
+	margin-top: 45px;
+	width: 100%;
+	height: 72px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #ff3b3b;
+	font-size: 18px;
+	line-height: 34px;
+	letter-spacing: 0.025em;
+	font-family: 'Open Sans', sans-serif;
+	transition: all 0.3s ease 0s;
+}
+
+.getInTouch__connection_enter-button:hover {
+	background-color: white;
+	border: 2px #ff2d2d solid ;
+	color: #ff2d2d;
+}
+
+.getInTouch__connection_info {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.getInTouch__connection_info-title {
+	margin-top: 135px;
+	font-weight: bold;
+	color: #e0e0e0;
+	font-size: 18px;
+	line-height: 34px;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.getInTouch__connection_info-adress {
+	margin-top: 20px;
+	max-width: 290px;
+	color: #e0e0e0;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.getInTouch__connection_info-email {
+	margin-top: 20px;
+	color: #e0e0e0;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.getInTouch__connection_info-phone {
+	margin-top: 20px;
+	color: #e0e0e0;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.getInTouch__infoBlock{
+	position: absolute;
+	left: -80px;
+	z-index: -1;
+	width: 577px;
+	height: 480px;
+	background-color: #2d2d2d;
+}
+
+.footer {
+	margin-top: 110px;
+	width: 100%;
+	height: 110px;
+	background-color: #2d2d2d;
+}
+
+.footer__content{
+	height: 110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__content_text {
+	color: #b8b8b8;
+	font-size: 16px;
+	line-height: 26px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.footer__content_social{
+	width: 190px;
+	display: flex;
+	justify-content: space-between;
 }
