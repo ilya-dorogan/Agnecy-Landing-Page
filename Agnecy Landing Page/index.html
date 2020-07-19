@@ -30,7 +30,7 @@
 			<div class="wrapper">
 				<div class="discription__content">
 					<div class="discription__content_info">
-						<div class="discription__content_title">our strong <span>organaisation</span>
+						<div class="discription__content_title">our strong <span>organisation</span>
 						</div>
 						<div class="discription__content_text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed
 							do
@@ -171,12 +171,19 @@
 					</div>
 					<!-- реализовать просмотр сотрудников -->
 					<div class="team__member_list">
-						<div class="team__member_list-img"><a href="#"><img src="img/team_member.jpg" alt=""></a></div>
-						<div class="team__member_list-img"><a href="#"><img src="img/team_member.jpg" alt=""></a></div>
-						<div class="team__member_list-img"><a href="#"><img src="img/team_member.jpg" alt=""></a></div>
-						<div class="team__member_list-img"><a href="#"><img src="img/team_member.jpg" alt=""></a></div>
+						<div class="team__member_list-img">
+							<p>barak obama</p>
+						</div>
+						<div class="team__member_list-img">
+							<p>barak obama</p>
+						</div>
+						<div class="team__member_list-img">
+							<p>barak obama</p>
+						</div>
+						<div class="team__member_list-img">
+							<p>barak obama</p>
+						</div>
 					</div>
-					<!-- реализовать hover -->
 				</div>
 			</div>
 		</div>
@@ -189,8 +196,12 @@
 				<div class="email__content_text">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.
 				</div>
 				<div class="email__content_form">
-					<input class="email__content_form-input" placeholder="Email Address..." type="text">
-					<!-- реализовать отпраку форм --> <button class="email__content_form-button">subscribe</button>
+					<form action="#" method="POST" enctype="multipart/form-data">
+						<input class="email__content_form-input" placeholder="Email Address..." type="text" name="usermail"
+							value="">
+						<!-- реализовать отпраку форм -->
+						<button class="email__content_form-button" type="submit">subscribe</button>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -209,10 +220,15 @@
 			<!-- настроить отправку форм -->
 			<div class="getInTouch__connection">
 				<div class="getInTouch__connection_enter">
-					<input class="getInTouch__connection_enter-name" type="text" placeholder="Name"></input>
-					<input class="getInTouch__connection_enter-email" type="email" placeholder="Your Mail"></input>
-					<textarea class="getInTouch__connection_enter-text" placeholder="Type your message"></textarea>
-					<button class="getInTouch__connection_enter-button">Send message</button>
+					<form action="#" method="POST" enctype="multipart/form-data">
+						<input class="getInTouch__connection_enter-name" type="text" placeholder="Name" name="username"
+							value=""></input>
+						<input class="getInTouch__connection_enter-email" type="email" placeholder="Your Mail" name="usermail"
+							value=""></input>
+						<textarea class="getInTouch__connection_enter-text" placeholder="Type your message"
+							name="usermessage"></textarea>
+						<button class="getInTouch__connection_enter-button" type="submit">Send message</button>
+					</form>
 				</div>
 
 				<div class="getInTouch__connection_info">

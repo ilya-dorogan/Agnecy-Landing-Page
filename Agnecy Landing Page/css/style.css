@@ -97,7 +97,6 @@ body{
 	box-shadow: 0 0 75px rgba(0,0,0,0.5)
 }
 
-
 .discription__content_video video{
 	display: none;/*РАЗОБРАТСЯ С ВЫВОДОМ ВИДЕО*/
 }
@@ -407,15 +406,34 @@ align-items: center;
 }
 
 .team__member_list-img{
+	background: url(../img/team_member.jpg) no-repeat center top;
+	background-size: cover;
 	height: 215px;
 	width: 200px;
 	background-color: #f5f0dd;
+	position: relative;
 }
 
-.team__member_list img{
-	width:100%;
-	height: 100%;
-	object-fit:cover;	
+.team__member_list-img p{
+	bottom:0;
+	position: absolute;
+	display: grid;
+	place-items: center;
+	background-color: rgba(122,120,110,0.85);
+	height: 37px;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color:#ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.01px;
+	display: none;
+}
+
+.team__member_list-img:hover p{
+	display: grid;
+	cursor: pointer;
 }
 
 .email{
@@ -436,7 +454,7 @@ height: 515px;
 	line-height: 24px;
 	font-weight: bold;
 	letter-spacing: 0.025em;
-	color: #fdfcf8;
+	color: #585858;
 }
 
 .email__content_text {
@@ -444,7 +462,7 @@ height: 515px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 28px;
-	color: #fdfcf8;
+	color: #585858;
 }
 
 .email__content_form{
@@ -452,6 +470,10 @@ height: 515px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.email__content form{
+	display: flex;
 }
 
 .email__content_form-input {
@@ -486,13 +508,6 @@ margin-right: 20px;
 	background-color: white;
 	border: 2px #ff2d2d solid ;
 	color: #ff2d2d;
-}
-
-.getInTouch {
-	
-}
-
-.getInTouch__content {
 }
 
 .getInTouch__content_title {
@@ -536,8 +551,8 @@ margin-right: 20px;
 }
 
 .getInTouch__connection_enter-name {
-	padding-left: 55px;
-	border-radius: 6px;
+	padding: 0 55px;
+	border-radius: 7px;
 	height:70px ;
 	width: 340px;
 	font-family: 'Open Sans', sans-serif;
@@ -549,8 +564,9 @@ margin-right: 20px;
 }
 
 .getInTouch__connection_enter-email {
-	padding-left: 55px;
-	border-radius: 6px;
+	margin-left: 45px;
+	padding: 0 55px;
+	border-radius: 7px;
 	height:70px ;
 	width: 340px;
 	font-family: 'Open Sans', sans-serif;
@@ -563,9 +579,8 @@ margin-right: 20px;
 
 .getInTouch__connection_enter-text {
 	margin-top: 45px;
-	padding-top: 35px;
-	padding-left: 55px;
-	border-radius: 6px;
+	padding: 35px 55px 0;
+	border-radius: 7px;
 	height: 250px;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
