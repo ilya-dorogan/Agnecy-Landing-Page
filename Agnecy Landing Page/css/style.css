@@ -472,9 +472,6 @@ height: 515px;
 	align-items: center;
 }
 
-.email__content form{
-	display: flex;
-}
 
 .email__content_form-input {
 	width:520px;
@@ -482,7 +479,7 @@ height: 515px;
 	border-radius: 3px;
 	padding-left: 35px;
 	font-family: 'Open Sans', sans-serif;
-margin-right: 20px;
+	margin-right: 20px;
 	
 }
 
@@ -564,7 +561,6 @@ margin-right: 20px;
 }
 
 .getInTouch__connection_enter-email {
-	margin-left: 45px;
 	padding: 0 55px;
 	border-radius: 7px;
 	height:70px ;
